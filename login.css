@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins);
+* {
+  font-family: "Poppins";
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  background-color: #96b6c5;
+}
+body .form-login {
+  background-color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  border-radius: 50px;
+}
+body .form-login input {
+  margin-bottom: 20px;
+  width: 400px;
+  height: 40px;
+  padding-left: 20px;
+  background-color: #adc4ce;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+}
+body .form-login h3 {
+  text-align: center;
+}
+body .form-login .p-password {
+  text-align: right;
+  margin-top: -8px;
+  margin-bottom: 35px;
+}
+body .form-login .p-password .btn-forget-password {
+  text-decoration: none;
+  color: #999aa4;
+  font-size: 16px;
+  font-weight: 400;
+}
+body .form-login .p-password .btn-forget-password:hover {
+  color: #497174;
+}
+body .form-login .btn-signin {
+  width: 100%;
+  border: none;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #497174;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+body .form-login .btn-signin:hover {
+  background-color: #7eaa92;
+}
+body .form-login a .btn-signup {
+  width: 100%;
+  border: none;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #adc4ce;
+  color: black;
+  font-weight: 700;
+  margin-top: 15px;
+  cursor: pointer;
+}
+body .form-login a .btn-signup:hover {
+  background-color: #7eaa92;
+}
+body .form-login hr {
+  color: #e5e9f2;
+  height: 15px;
+  border-left: none;
+}
+body .form-login a .btn-google {
+  width: 100%;
+  border: none;
+  height: 40px;
+  border-radius: 50px;
+  background-color: rgb(35, 31, 59);
+  color: #fff;
+  font-weight: 700;
+  margin-top: 15px;
+  cursor: pointer;
+}
+body .form-login .btn-google img {
+  width: 23px;
+  height: 23px;
+  margin-bottom: -7px;
+  margin-top: -19px;
+}
